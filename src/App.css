@@ -1,17 +1,20 @@
 .App {
   text-align: center;
+  background-color:  #e1b382;
+  color: #020d22
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#animalInfo {
+  color: #015045;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#updateBtn {
+  margin-bottom: 30px;
 }
+
+
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +27,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control {
+  margin-bottom: 20px;
 }
